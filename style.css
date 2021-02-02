@@ -1,0 +1,60 @@
+.total {
+  margin-top: 50px;
+}
+
+.money-form {
+  margin-top: 0px;
+}
+
+.coin-images {
+  display: flex;
+}
+
+.coin {
+  background-color: gray;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px dashed black;
+}
+
+.penny {
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+}
+
+.nickel {
+  height: 70px;
+  width: 70px;
+}
+
+.dime {
+  height: 45px;
+  width: 45px;
+}
+
+.quarter {
+  height: 85px;
+  width: 85px;
+}
+
+/* light bulb */
+
+.light-bulb {
+  background-color: grey;
+  margin-top: 50px;
+  text-align: center;
+  width: 10 0px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.button {
+  padding: 15px;
+  margin: 10px;
+  background-color: blue;
+  color: black;
+}

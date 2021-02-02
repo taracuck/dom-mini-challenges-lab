@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Mini Challenges</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- vending machine -->
+  <body>
+    <section>
+      <p class="total">Total: $0.00</p>
+      <button class="cola">LIME COLA $2.00</button>
+      <button class="peanuts">SALTED PEANUTS $3.00</button>
+      <button class="chocolate">CHOCOLATE BAR $4.00</button>
+      <button class="gummies">FRUIT GUMMIES $6.00</button>
+    </section>
+    <!-- money -->
+    <section>
+      <p class="total-money">Total: $0.00</p>
+      <form class="money-form">
+        <label for="how-many">How many?</label>
+        <input
+          type="text"
+          id="how-many"
+          placeholder="Please enter amount"
+          name="how-many"
+          required
+        />
+        <label for="which-coin">Which coin?</label>
+        <select name="which-coin" id="which-coin" required>
+          <option value="penny">Penny</option>
+          <option value="nickel">Nickel</option>
+          <option value="dime">Dime</option>
+          <option value="quarter">Quarter</option>
+        </select>
+        <button>Make Money!</button>
+        <div class="coin-images"></div>
+      </form>
+    </section>
+    <!-- light bulb -->
+    <section>
+      <div class="light-bulb">Light bulb</div>
+      <button class="button on">On</button>
+      <button class="button off">Off</button>
+      <button class="button toggle">Toggle</button>
+      <button class="button end">End</button>
+    </section>
+    <!-- add other elements -->
+    <script src="script.js"></script>
+  </body>
+</html>
